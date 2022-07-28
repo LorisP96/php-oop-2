@@ -7,5 +7,5 @@ class Cats extends Products {
 };
 
 $lettiera = new Cats('Lettiera', 20.00); 
-    $lettiera->use = 1;
+    $lettiera->use = 'accessorio';
 ?>

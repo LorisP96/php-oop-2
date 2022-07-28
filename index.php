@@ -9,5 +9,5 @@ require_once __DIR__ . '/Products.php';
 require_once __DIR__ . '/Dogs.php';
 require_once __DIR__ . '/Cats.php';
 require_once __DIR__ . '/Others.php';
-var_dump($pettorina->getInfo(), $lettiera->getInfo());
+var_dump($pettorina->getInfo(), $lettiera->getInfo(), $croccantiniCani->getInfo());
 ?>

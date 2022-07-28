@@ -7,4 +7,6 @@ class Dogs extends Products {
 };
 
 $pettorina = new Dogs('Pettorina', 15.00);
+$croccantiniCani = new Dogs('Croccantini', 8);
+    $croccantiniCani->use = 'cibo';
 ?>
