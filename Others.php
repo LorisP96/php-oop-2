@@ -1,6 +1,6 @@
 <?php   
-require_once __DIR__ . '/Products.php';
+    require_once __DIR__ . '/Products.php';
 
-class Others extends Products {
-};
+    class Others extends Products {
+    };
 ?>
