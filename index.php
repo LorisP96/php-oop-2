@@ -10,10 +10,11 @@ require_once __DIR__ . '/Dogs.php';
 require_once __DIR__ . '/Cats.php';
 require_once __DIR__ . '/Others.php';
 require_once __DIR__ . '/User.php';
-$marcello->getCoupon($lettiera);
-$marcello->getCoupon($croccantiniCani);
-$host1234->getCoupon($lettiera);
-$host1234->getCoupon($croccantiniCani);
+require_once __DIR__ . '/Coupon.php';
+$marcello->getPrice($lettiera);
+$marcello->getPrice($croccantiniCani);
+$host1234->getPrice($lettiera);
+$host1234->getPrice($croccantiniCani);
 ?>
 
 <!DOCTYPE html>
